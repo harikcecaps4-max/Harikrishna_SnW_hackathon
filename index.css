@@ -1,0 +1,54 @@
+.bacimg{
+            position: absolute;
+            width: 100%;
+            height: 75%;
+            opacity: 0.4;
+}
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: sans-serif;
+ }
+ .logo img{
+        width: 300px; 
+ }
+.header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+}
+.headerR{
+            /* margin-top: 20px; */
+            margin-right: 80px;
+}
+.buttonsn{
+            background-color: red;
+            /* height: 10px; */
+            /* width: 60px; */
+}
+.memb{
+        position: relative;
+        text-align: center;
+        padding: 100px;
+}
+.slider{
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 10px;
+}
+.Trending{
+                    position: relative;
+}
+.trend{
+            height: 100px;
+            width: 200px;
+}
+body{
+        background-color: black;
+}
+.reason{
+          position: relative;
+}
