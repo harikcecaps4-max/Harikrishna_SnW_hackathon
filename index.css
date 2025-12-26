@@ -35,16 +35,19 @@
 }
 .slider{
             display: flex;
-            overflow-x: auto;
+            overflow: hidden;
+            overflow-x: scroll;
             white-space: nowrap;
             padding: 10px;
+            gap: 31px;
+            /* opacity: 0; */
+            /* border-radius: 50px; */
+}
+.trend img{
+            border-radius: 30px;
 }
 .Trending{
                     position: relative;
-}
-.trend{
-            height: 100px;
-            width: 200px;
 }
 body{
         background-color: black;
